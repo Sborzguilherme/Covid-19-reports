@@ -1,11 +1,12 @@
 const React = require('react')
 
-const Chart = () => {
-    return(
-        <h1>
-            Chart
-        </h1>
-    )
+const Chart = (props) => {
+  console.log(props)
+  return (
+    <h1>
+      Chart
+    </h1>
+  )
 }
 
-module.exports  = { Chart }
+module.exports = { Chart }

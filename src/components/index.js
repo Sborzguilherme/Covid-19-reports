@@ -3,7 +3,7 @@ const { Chart } = require('./Chart/Chart')
 const { CountryPicker } = require('./CountryPicker/CountryPicker')
 
 module.exports = {
-    Cards,
-    Chart,
-    CountryPicker    
+  Cards,
+  Chart,
+  CountryPicker
 }
