@@ -1,4 +1,4 @@
-const React = require('react')
+import React from 'react'
 
 const Chart = (props) => {
   console.log(props)
@@ -9,4 +9,4 @@ const Chart = (props) => {
   )
 }
 
-module.exports = { Chart }
+export default Chart

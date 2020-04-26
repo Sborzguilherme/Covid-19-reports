@@ -1,7 +1,7 @@
-const axios = require('axios')
+import axios from 'axios'
 const url = 'https://covid19.mathdro.id/api' // Have to be moved to env files
 
-const fetchData = async () => {
+export const fetchData = async () => {
   try {
     const { data: {
       confirmed,
@@ -15,9 +15,5 @@ const fetchData = async () => {
     console.log(error)
     throw error
   }
-}
-
-module.exports = {
-  fetchData
 }
 

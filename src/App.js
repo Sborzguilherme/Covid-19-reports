@@ -1,7 +1,8 @@
-const React = require('react')
-const { Cards, Chart, CountryPicker } = require('./components')
-const styles = require('./App.module.css')
-const { fetchData } = require('./api')
+import React from 'react'
+import { Cards, CountryPicker, Chart } from './components'
+import styles from './App.module.css';
+import { fetchData } from './api/'
+
 class App extends React.Component {
 
   state = {
@@ -26,4 +27,4 @@ class App extends React.Component {
   }
 }
 
-module.exports = { App }
+export default App
