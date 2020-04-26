@@ -10,9 +10,6 @@ const Chart = () => {
     const fetchApi = async() => {
       setDailyData(await fetchDailyData())
     }
-
-    console.log(dailyData)
-
     fetchApi()
   })
 
