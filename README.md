@@ -4,6 +4,8 @@ This project was developed to track numbers about COVID-19 around the world and 
 It is possible to see data from infected and recovered people, along with the number of deaths caused by COVID-19.  
 Global data is initially shown, but it is possible to select data for each country individually. 
 
+### The site is live in [covid19reports.netlify.app](https://covid19reports.netlify.app)
+
 ## Sources
 This projected uses the API provided for [mathdroid](https://covid19.mathdro.id/api) and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -20,5 +22,7 @@ Some of the features used are:
 
 Clone the repository and run `npm i`.  
 To launch the program just run `npm start`. The website will open in your default browser at [http://localhost:3000](http://localhost:3000)
+
+
 
 
